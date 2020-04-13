@@ -17,11 +17,6 @@
             android:orientation="vertical"
             android:layout_weight="1">
 
-            <Spinner
-                android:id="@+id/parSelectorForPlayerA"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -57,31 +52,31 @@
                 android:layout_margin="10dp"/>
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Birdie"
                 android:layout_margin="10dp"/>
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Par"
                 android:layout_margin="10dp"/>
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Bogey"
                 android:layout_margin="10dp"/>
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Double Bogey"
                 android:layout_margin="10dp"/>
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Triple Bogey"
                 android:layout_margin="10dp"/>
@@ -101,11 +96,6 @@
             android:gravity="center_horizontal"
             android:orientation="vertical"
             android:layout_weight="1">
-
-            <Spinner
-                android:id="@+id/parSelectorForPlayerB"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -130,43 +120,43 @@
                 android:fontFamily="sans-serif-light"/>
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Double Eagle"
                 android:layout_margin="10dp"/>
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Eagle"
                 android:layout_margin="10dp"/>
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Birdie"
                 android:layout_margin="10dp"/>
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Par"
                 android:layout_margin="10dp"/>
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Bogey"
                 android:layout_margin="10dp"/>
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Double Bogey"
                 android:layout_margin="10dp"/>
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Triple Bogey"
                 android:layout_margin="10dp"/>
