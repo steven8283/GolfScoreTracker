@@ -43,43 +43,43 @@
                 android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Double Eagle"
-                android:layout_margin="10dp"/>
+                android:layout_margin="10dp"
+                android:onClick="doubleEagleForPlayerA" />
 
             <Button
                 android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Eagle"
-                android:layout_margin="10dp"/>
+                android:layout_margin="10dp"
+                android:onClick="eagleForPlayerA" />
 
             <Button
                 android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Birdie"
-                android:layout_margin="10dp"/>
-
-            <Button
-                android:layout_width="125dp"
-                android:layout_height="wrap_content"
-                android:text="Par"
-                android:layout_margin="10dp"/>
+                android:layout_margin="10dp"
+                android:onClick="birdieForPlayerA" />
 
             <Button
                 android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Bogey"
-                android:layout_margin="10dp"/>
+                android:layout_margin="10dp"
+                android:onClick="bogeyForPlayerA" />
 
             <Button
                 android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Double Bogey"
-                android:layout_margin="10dp"/>
+                android:layout_margin="10dp"
+                android:onClick="doubleBogeyForPlayerA" />
 
             <Button
                 android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Triple Bogey"
-                android:layout_margin="10dp"/>
+                android:layout_margin="10dp"
+                android:onClick="tripleBogeyForPlayerA" />
             
         </LinearLayout>
 
@@ -123,43 +123,43 @@
                 android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Double Eagle"
-                android:layout_margin="10dp"/>
+                android:layout_margin="10dp"
+                android:onClick="doubleEagleForPlayerB" />
 
             <Button
                 android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Eagle"
-                android:layout_margin="10dp"/>
+                android:layout_margin="10dp"
+                android:onClick="eagleForPlayerB" />
 
             <Button
                 android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Birdie"
-                android:layout_margin="10dp"/>
-
-            <Button
-                android:layout_width="125dp"
-                android:layout_height="wrap_content"
-                android:text="Par"
-                android:layout_margin="10dp"/>
+                android:layout_margin="10dp"
+                android:onClick="birdieForPlayerB" />
 
             <Button
                 android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Bogey"
-                android:layout_margin="10dp"/>
+                android:layout_margin="10dp"
+                android:onClick="bogeyForPlayerB" />
 
             <Button
                 android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Double Bogey"
-                android:layout_margin="10dp"/>
+                android:layout_margin="10dp"
+                android:onClick="doubleBogeyForPlayerB" />
 
             <Button
                 android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Triple Bogey"
-                android:layout_margin="10dp"/>
+                android:layout_margin="10dp"
+                android:onClick="tripleBogeyForPlayerB" />
 
 
 
@@ -175,7 +175,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:text="Reset"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="10dp"
+        android:onClick="resetAllScores" />
 
 
 
